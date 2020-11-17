@@ -17,7 +17,7 @@ public class GameAdmin : MonoBehaviour
     private TMP_InputField textInputField;
     private void Awake() {
         // Initilize a random number first
-        numberCorrect = Random.Range(0,100);
+        numberCorrect = UnityEngine.Random.Range(0,100);
         
             // guessTimeIndicator.text = "Guess Time: 0";
     }

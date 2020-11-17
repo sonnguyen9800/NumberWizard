@@ -47,6 +47,7 @@ public class HintMaker
             }
         } else if (random >= 0 && random  <= 3 ) {
             int distance = Mathf.Abs(guess - number) ;
+            Debug.Log(distance);
             if (distance<= 20 && distance > 10){
                 return "Try more, your number is closer to the one I picked";
             } else if (distance <= 10 && distance > 5){
