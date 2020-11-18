@@ -26,7 +26,7 @@ public class GameAdmin : MonoBehaviour
     public void takeGuessNumber(TMP_InputField number){
         if (number.text == null) return;
         try {
-            Debug.Log(number.text);
+            //Debug.Log(number.text);
             this.guessNumber = int.Parse(number.text);
         } catch (Exception e){
             Debug.LogError("Handle error" + e);
